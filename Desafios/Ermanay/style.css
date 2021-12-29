@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,  #84D0D9,  #0477BF, #339AA6, #1F4C73);
+    margin: 1px;
+ }
+
+ul { 
+    display: inline-block;
+    height: 94px;
+    width: 268px;
+    text-align: center;
+    padding: 2px 2px 0px 2px ;
+    margin: 0px 0px 0px 50px ;
+  }
+
+p { 
+    display: inline-block;
+    height: 94px;
+    width: 369px;
+    text-align: center;
+    padding: 2px 2px 0px 2px ;
+    margin: 0px 0px 0px 20px ;
+  }
+
+ h1 {
+    font-size: 1.4em;
+    text-indent: 10px;
+    font-family: Caveat, cursive, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    }
+
+ nav {
+    background-color: #063664;
+    height: 30px;  
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border-radius: 8px;   
+  }
+  
+  nav>a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;   
+  }
+
+ picture { margin-bottom: 10px;
+  margin-left: 10px;
+  }
+
+  h2 { 
+    text-indent: 10px;
+    padding-top: 3px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+  }
+
+  main {
+    background-color: white; 
+    border-radius: 10px;
+  }
+
+ .categoria {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 250px;
+    width: 300px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    }
+
+  .produto { 
+    text-align: center;
+    display: inline-block;
+    height: 262px;
+    width: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .bolsa {
+    text-align: center;
+    display: inline-block;
+    height: 245px;
+    width: 304px;
+    border: 1px dotted black;
+    padding-top: 18px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+  }
+
+  section {
+    background-image: linear-gradient(to right,  #84D0D9,  #0477BF, #339AA6, #1F4C73);
+    margin: 1px;
+    text-align: center;
+
+  }

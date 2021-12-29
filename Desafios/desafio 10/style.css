@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&family=Ubuntu:wght@500&display=swap');
+body {
+    background-color: #E9E6C3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header { background-image: linear-gradient(to bottom, #1F8E53, #0F592E, #4c5f54);
+    color: white;
+    padding: 2px;
+}
+
+header>h1 {
+    text-align: center;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;            
+}
+
+header>p {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    height: 38px;
+    width: 746px;
+    text-align: center;
+    font-size: 1.4em;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #1F8E53, #0F592E, #4c5f54)
+}
+nav>a { color:#6AB388;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-right: 5px;
+    padding-left: 10px;   
+}
+
+nav>a:hover {
+    background-color:#22894E;
+    color: #0b361f;
+}
+
+main {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+main>article {
+    background-color: white;
+}
+
+
+main>article>h1 {
+    font-family: Trade Winds, cursive, Arial, Helvetica, sans-serif;
+    color: #143424;
+    padding-left: 15px;
+}
+
+main>article>h2 {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #A2EAC1, #CAF2DA, #F9FFFB );
+    color: #143424;
+    padding-left: 10px;
+}
+
+main>article>p {
+    text-indent: 35px;
+    text-align: justify;
+   }
+
+strong {
+    color:#0b361f;
+    font-weight:bold;
+}
+
+
+mark {
+    background-color:#78ce9d;
+    color:#0b361f;
+    font-weight: bold;
+}
+
+.dandroids {
+    margin-left: 61px;
+}
+
+.android {
+    margin-left: 336px;
+}
+
+main>div {
+    margin-left: 175px;
+}
+
+article {
+    background-color: #80E1AA;
+    width: 900px;
+    margin: auto;
+}
+
+main>article>h3 {
+    background-color: #175C34;
+    color: white;
+    text-indent: 10px;
+}
+
+main>article>p {
+    text-indent: 35px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+main>article>div {
+    display: inline-block;
+    padding-right: 100px;
+    font-size: 15px;
+}

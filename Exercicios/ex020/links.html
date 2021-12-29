@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peronlizando links</title>
+
+    <style>
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1.4em;
+            }
+        a {
+            color: rgb(46, 0, 252);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgba(103, 236, 41, 0.973);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgba(235, 93, 28, 0.822);
+        }
+        a:active {
+            color: rgb(177, 90, 218);
+        }
+        .especial {
+            background-color: rgb(85, 68, 238);
+        }
+        .especial::before {
+            content: '🪒';
+        }
+        .especial::after {
+            content: '🪒';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links com pseudo-class, pseudo-elemento e class</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank">YouYube</a></li>
+        <li><a href="https://www.instagram.com/psg/?hl=pt-br" target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://www.facebook.com/fcbarcelona" target="_blank">Facebook</a></li>
+    </ul>
+</body>
+</html>
