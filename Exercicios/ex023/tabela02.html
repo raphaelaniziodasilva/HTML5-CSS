@@ -10,9 +10,15 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         table {
-            width: 400px;
+            width: 500px;
             border: 2px solid black;
             border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.6em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(0, 139, 139, 0.678);
         }
         td, th {
             border: 1px solid black;
@@ -31,10 +37,13 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>
+            População das unidades federativas
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -97,7 +106,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>210.147.125</strong></td>
             </tr>
 
