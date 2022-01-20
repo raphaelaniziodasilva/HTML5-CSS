@@ -11,8 +11,8 @@
         }
         table {
             width: 500px;
-            border: 2px solid black;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.6em;
@@ -26,7 +26,19 @@
         }
         thead, tfoot {
             background-color: rgb(140, 176, 223);
-            color: white;
+            color: black;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(140, 176, 223);
+        }
+        tbody > tr:nth-child(even) { /* EFEITO ZEBRADO */
+            background-color: rgba(250, 250, 106, 0.781);
+        }
+        tbody > tr:nth-child(odd) { /* EFEITO ZEBRADO */
+            background-color: rgb(245, 192, 95);
+
         }
         td.num, tfoot {
             text-align: right;
